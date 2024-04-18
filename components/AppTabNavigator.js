@@ -8,7 +8,7 @@ import { Icon } from 'react-native-elements';
 
 export const AppTabNavigator = createBottomTabNavigator({
   LogIn: {
-    screen: SignUpScreen ,
+    screen: LogInScreen ,
     navigationOptions: {
       tabBarIcon: <Icon name="log-in" type="ionicon" color="green" />,
       tabBarLabel: 'Iniciar sesión',
@@ -16,7 +16,7 @@ export const AppTabNavigator = createBottomTabNavigator({
   },
   
   SignUp: {
-    screen: LogInScreen,
+    screen: SingUpScreen,
     navigationOptions: {
       tabBarIcon: <Icon name="person-add" type="ionicon" color="green" />,
       tabBarLabel: 'Registrarse',
