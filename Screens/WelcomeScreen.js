@@ -69,5 +69,3 @@ const styles = StyleSheet.create({
     fontFamily: 'century gothic',
     color: 'white',
     textAlign: 'center',
-  },
-});
