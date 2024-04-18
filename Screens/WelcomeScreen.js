@@ -14,7 +14,7 @@ export default class WelcomeScreen extends React.Component {
           colors={['#2af598', '#22e4ac', '#1BD7BB', '#14C9CB']}>
           <Text
             style={styles.buttonText}
-            onPress={() => this.props.navigation.navigate('')}>
+            onPress={() => this.props.navigation.navigate('AppTabNavigator')}>
             ¡COMENCEMOS!
           </Text>
         </LinearGradient>
